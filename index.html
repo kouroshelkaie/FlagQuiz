@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunWithFlags</title>
+    <script src="./Scripts/fetch.js" defer></script>
+    <script src="./Scripts/app.js" defer></script>
+    <script src="./Scripts/dom.js" defer></script>
+    <script src="./Scripts/hint.js" defer></script>
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>FlagQuiz</title>
+</head>
+<body>
+    <div class="outer_container">
+
+        <img src="./Assets/svg/icons8-light-100.png" alt="" class="logo">
+        <h3 class="title">FunWithFlags</h3>
+
+        <div class="inner_container">
+            <div class="header_container">
+                <img src="" alt="" class="flag_image">
+                <span class="hint_container"></span>    
+            </div>
+            <h4 class="caption">Which country does this flag belong to?</h4>
+            <ul class="item_container"></ul>
+            <button class="next_stage">Next</button>
+        </div>
+
+        <p class="stage_counter">1/10</p>
+
+        <!-- modal_container -->
+        <div class="back_drop"></div>
+        <div class="modal_container">
+            <img src="./Assets/svg/undraw_winners_re_wr1l.svg" alt="">
+            <h1>Results</h1>
+            <p>You got <span class="result"></span> correct answers!</p>
+            <button class="try_again">Try again</button>
+        </div>
+    </div>
+    <div class="footer_container">
+        <footer class="footer">created by <a href='https://github.com/kouroshelkaie'>kouroshelkaie</a></footer>
+    </div>
+</body>
+</html>
