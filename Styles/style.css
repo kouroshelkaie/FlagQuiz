@@ -132,7 +132,7 @@ body {
   left: 0%;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
   opacity: 0;
   pointer-events: none;
@@ -150,9 +150,9 @@ body {
   background-color: #fff;
   position: fixed;
   top: 10%;
-  left: 36%;
+  left: 35%;
   text-align: center;
-  padding: 5rem;
+  padding: 5rem 7rem;
   font-family: 'raleway';
   border-radius: 9px;
 }
