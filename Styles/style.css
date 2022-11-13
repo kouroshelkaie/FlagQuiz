@@ -204,11 +204,10 @@ body {
   text-align: center;
   padding: 5rem 7rem;
   font-family: 'raleway';
-  border-radius: 9px;
 }
 
 .outer_container .modal_container img {
-  width: 15rem;
+  width: 13rem;
 }
 
 .outer_container .modal_container h1 {
